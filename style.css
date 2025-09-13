@@ -1,0 +1,73 @@
+body{
+  background: Aquamarine;
+  front-family: Courier New;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.titulo{
+  background: Aquamarine;
+  front-family: Courier New;
+  margin: 0;
+  margin-bottom: 15px;
+  
+}
+.subtitulo{
+  margin-top: 10px;
+  font-style: Courier New;
+   
+    
+}
+header{
+  background:LightSeaGreen;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+main{
+  padding:30px 20px;
+  margin:0 100px;
+}
+.sobre {
+  margin-botom:30px;
+}
+.sobre h2{
+  color:white;
+}
+
+.imagem{
+  text-align: center;
+}
+.imagem img {
+  width: 500px;
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.botoes{
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.botoes a{
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.botoes a:hover{
+  background-color: red;
+  
+}
+
+footer{
+  background-color:LightSeaGreen;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  front-size: 16px;
+}	
